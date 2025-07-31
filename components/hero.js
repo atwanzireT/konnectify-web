@@ -92,19 +92,19 @@ const Hero = () => {
       </div>
 
       {/* Clients/partners showcase */}
-      <div className="bg-gray-50 dark:bg-gray-800 py-6 sm:py-8 relative z-10">
+      {/* <div className="bg-gray-50 dark:bg-gray-800 py-6 sm:py-8 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-xs sm:text-sm text-gray-500 dark:text-gray-400 mb-4 sm:mb-6">Trusted by leading brands in Uganda</p>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-12 items-center">
             {[1, 2, 3, 4, 5].map((i) => (
               <div key={i} className="h-8 sm:h-10 md:h-12 w-auto opacity-70 hover:opacity-100 transition-opacity duration-300">
-                {/* Replace with actual client logos */}
+
                 <div className="h-full w-full bg-gray-200 dark:bg-gray-700 rounded"></div>
               </div>
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
