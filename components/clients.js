@@ -45,14 +45,14 @@ const HappyClients = () => {
           {clients.map((client, index) => (
             <div 
               key={index}
-              className="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 flex items-center justify-center h-40"
+              className="bg-transparent rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 flex items-center justify-center h-40"
             >
               <div className="relative w-full h-24">
                 <Image
                   src={client.logo}
                   alt={client.name}
                   fill
-                  className="object-contain"
+                  className="object-contain rounded-md"
                   sizes="(max-width: 768px) 100px, 150px"
                 />
               </div>
